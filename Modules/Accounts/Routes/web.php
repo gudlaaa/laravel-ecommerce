@@ -13,4 +13,5 @@
 
 Route::prefix('app/accounts')->group(function() {
     Route::get('/', 'AccountsController@index');
+    Route::get('/class', 'AccountsController@class');
 });
